@@ -8,4 +8,4 @@ língua termina com th, exceto 1, 2 e 3.
 para cada número ordinal. Sua saída deverá conter "1st 2nd 3rd 4th 5th
 6th 7th 8th 9th", e cada resultado deve estar em uma linha separada.
 """
-list_num = 
+list_num = ["1","2"]
