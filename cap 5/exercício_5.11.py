@@ -8,4 +8,13 @@ língua termina com th, exceto 1, 2 e 3.
 para cada número ordinal. Sua saída deverá conter "1st 2nd 3rd 4th 5th
 6th 7th 8th 9th", e cada resultado deve estar em uma linha separada.
 """
-list_num = ["1","2"]
+list_num = list(range(1,10))
+for num in list_num:
+    if num == 1:
+        print(str(num) +'st')
+    elif num == 2:
+        print(str(num) +'nd')
+    elif num == 3:
+        print(str(num) +'rd')
+    else:
+        print(str(num) +'th')
