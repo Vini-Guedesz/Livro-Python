@@ -20,29 +20,29 @@ ordem alfabética. Exiba a lista para mostrar que sua ordem mudou.
 • Utilize sort() para mudar sua lista de modo que ela seja armazenada em
 ordem alfabética inversa. Exiba a lista para mostrar que sua ordem mudou.
 '''
-lugares_visitar = ['rio de janeiro', 'blumenau', 'new york', 'recife', 'salvador']
-print(lugares_visitar)
+visit_places = ['rio de janeiro', 'blumenau', 'new york', 'recife', 'salvador']
+print(visit_places)
 
-print(sorted(lugares_visitar))
+print(sorted(visit_places))
 
-print(lugares_visitar)
+print(visit_places)
 
-print(sorted(lugares_visitar,reverse=True))
+print(sorted(visit_places,reverse=True))
 
-print(lugares_visitar)
+print(visit_places)
 
-lugares_visitar.reverse()
+visit_places.reverse()
 
-print(lugares_visitar)
+print(visit_places)
 
-lugares_visitar.reverse()
+visit_places.reverse()
 
-print(lugares_visitar)
+print(visit_places)
 
-lugares_visitar.sort()
+visit_places.sort()
 
-print(lugares_visitar)
+print(visit_places)
 
-lugares_visitar.sort(reverse=True)
+visit_places.sort(reverse=True)
 
-print(lugares_visitar)
+print(visit_places)

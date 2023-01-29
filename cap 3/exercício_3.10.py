@@ -5,12 +5,12 @@ cidades, idiomas ou qualquer outro item que quiser. Escreva um programa que
 crie uma lista contendo esses itens e então utilize cada função apresentada
 neste capítulo pelo menos uma vez.
 '''
-convidados_casamento = ['andy', 'louis', 'suzy', 'harry']
-convidados_casamento.insert(2, 'marcos')
-del convidados_casamento[0]
-convidados_casamento.pop(-1)
-convidados_reverse = sorted(convidados_casamento)
-convidados_ordem = sorted(convidados_casamento, reverse=True)
-print('ao total são '+ str(len(convidados_casamento)) + ' convidados!!!')
-print('essa é a lista de convidados em ordem alfabetica: '+ convidados_ordem[0].title() + ', ' + convidados_ordem[1].title() +', '+ convidados_ordem[2].title())
-print('essa é a lista de convidados em ordem alfabetica: '+ convidados_reverse[0].title() + ', ' + convidados_reverse[1].title() +', '+ convidados_reverse[2].title())
+wedding_guests = ['andy', 'louis', 'suzy', 'harry']
+wedding_guests.insert(2, 'marcos')
+del wedding_guests[0]
+wedding_guests.pop(-1)
+reverse_guests = sorted(wedding_guests, reverse=True)
+sorted_guests = sorted(wedding_guests)
+print('ao total são '+ str(len(wedding_guests)) + ' convidados!!!')
+print('essa é a lista de convidados em ordem alfabetica: '+ sorted_guests[0].title() + ', ' + sorted_guests[1].title() +', '+ sorted_guests[2].title())
+print('essa é a lista de convidados em ordem reversa: '+ reverse_guests[0].title() + ', ' + reverse_guests[1].title() +', '+ reverse_guests[2].title())
