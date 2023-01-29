@@ -4,14 +4,14 @@ pessoa e inclua alguns caracteres em branco no início e no final do nome.
 Lembre-se de usar cada combinação de caracteres, "\t" e "\n", pelo menos
 uma vez.
 '''
-nome = "\tVinicius\nGuedes"
-print(nome)
+name = "\tVinicius\nGuedes"
+print(name)
 
-nome = nome.rstrip()
-print(nome)
+name = name.rstrip()
+print(name)
 
-nome = nome.lstrip()
-print(nome)
+name = name.lstrip()
+print(name)
 
-nome = nome.strip()
-print(nome)
+name = name.strip()
+print(name)

@@ -4,5 +4,5 @@ apresente uma mensagem a essa pessoa. Sua mensagem deve ser simples,
 como “Alô Eric, você gostaria de aprender um pouco de Python hoje?”.
 '''
 
-nome = 'vinicios'
-print('Alô ' + nome + ', você gostaria de aprender um pouco de Python hoje?')
+name = 'vinicios'
+print('Alô ' + name + ', você gostaria de aprender um pouco de Python hoje?')
