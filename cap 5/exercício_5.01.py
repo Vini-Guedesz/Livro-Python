@@ -9,12 +9,12 @@ por que cada linha é avaliada como True ou False.
 • Crie pelo menos dez testes. Tenha no mínimo cinco testes avaliados como
 True e outros cinco avaliados como False.
 '''
-carro = 'bmw'
+car = 'bmw'
 print('este carro é da marca bmw?')
-print(carro == 'bmw')
+print(car == 'bmw')
 
 print('\neste carro é uma ferrari?')
-print(carro == 'ferrari')
+print(car == 'ferrari')
 
 moto = 'susuki'
 print('\nesta moto é da marca honda?')

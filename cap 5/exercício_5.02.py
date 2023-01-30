@@ -11,45 +11,45 @@ maior ou igual a e menor ou igual a;
 • testes para verificar se um item está em uma lista;
 • testes para verificar se um item não está em uma lista.
 '''
-carro = 'bmw'
-nome_propietario = 'Vini'
-idade_propetario = 18
-preco_carro = 190000
-km_rodado = 30000
-ex_propietarios = ['ruan', 'itallo', 'luis']
+car = 'bmw'
+name_owner = 'Vini'
+age_owner = 18
+price_car = 190000
+km_traveled = 30000
+ex_owners = ['ruan', 'itallo', 'luis']
 
 print('carro é uma bmw?')
-print(carro == 'BMW')
+print(car == 'BMW')
 
 print('carro é um diferente de uma ferrari?')
-print(carro != 'ferrari')
+print(car != 'ferrari')
 
 print('o nome do é propetário é Vini?')
-print(nome_propietario.lower() == 'vini')
+print(name_owner.lower() == 'vini')
 
 print('o propietário é maior de idade?')
-print(idade_propetario >= 18)
+print(age_owner >= 18)
 
 print('o propietário tem idade difente de 25 anos?')
-print(idade_propetario != 25)
+print(age_owner != 25)
 
 print('o propietário tem idade igual à 18?')
-print(idade_propetario == 18)
+print(age_owner == 18)
 
 print('o carro custou menos do que 1 milhão?')
-print(preco_carro < 1000000)
+print(price_car < 1000000)
 
 print('o carro custou mais do que 100 mil?')
-print(preco_carro > 100000)
+print(price_car > 100000)
 
 print('este carro já teve como mais de um dono antes do atual ou tem mais de 100 mil km rodado?')
-print(len(ex_propietarios)>1 or km_rodado > 100000)
+print(len(ex_owners)>1 or km_traveled > 100000)
 
 print('itallo e luis são ex propietários?')
-print('luis' and 'itallo' in ex_propietarios)
+print('luis' and 'itallo' in ex_owners)
 
 print('marcos é um ex propietário?')
-print('marcos' in ex_propietarios)
+print('marcos' in ex_owners)
 
 print('marcos não é um ex propietário?')
-print('marcos' not in ex_propietarios)
+print('marcos' not in ex_owners)
