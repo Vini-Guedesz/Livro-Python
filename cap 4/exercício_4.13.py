@@ -8,12 +8,12 @@ diferentes. Acrescente um bloco de código que reescreva a tupla e, em
 seguida, use um laço for para exibir cada um dos itens do cardápio
 revisado.
 '''
-pratos = ('pizza', 'pastel', 'feijoada', 'strogonoff', 'hamburguer')
-for prato in pratos:
-    print(prato)
+foods = ('pizza', 'pastel', 'feijoada', 'strogonoff', 'hamburguer')
+for food in foods:
+    print(food)
     
-#pratos[0] = 'arroz'
+#foods[0] = 'arroz'
 
-pratos = ('pizza', 'pastel', 'feijoada', 'arroz', 'sopa')
-for prato in pratos:
-    print(prato)
+foods = ('pizza', 'pastel', 'feijoada', 'arroz', 'sopa')
+for food in foods:
+    print(food)

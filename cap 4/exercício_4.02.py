@@ -8,8 +8,8 @@ exemplo, Um cachorro seria um ótimo animal de estimação.
 animais têm em comum. Você poderia exibir uma frase como Qualquer um
 desses animais seria um ótimo animal de estimação!
 '''
-animais = ['gato', 'leão', 'tigre']
-for animal in animais:
+animals = ['gato', 'leão', 'tigre']
+for animal in animals:
     print(animal.title() + ' é bom em caçar suas presas!!!\n')
 
 print('Todos eles são felinos!!!')

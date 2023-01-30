@@ -11,14 +11,14 @@ um laço for para exibir a segunda lista. Certifique-se de que cada pizza
 nova esteja armazenada na lista apropriada.
 '''
 pizzas = ['calabresa', 'bacon', 'frango']
-friendy_pizzas = pizzas[:]
+friend_pizzas = pizzas[:]
 pizzas.append('vegana')
-friendy_pizzas.append('peperoni')
+friend_pizzas.append('peperoni')
 
 print('minhas pizzas favoritas são:')
 for pizza in pizzas:
     print(pizza)
 
 print('as pizzas favoritas do meu amigo são:')
-for pizza in friendy_pizzas:
+for pizza in friend_pizzas:
     print(pizza)

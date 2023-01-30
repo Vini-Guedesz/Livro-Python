@@ -8,7 +8,7 @@ três itens do meio da lista.
 • Exiba a mensagem Os três últimos itens da lista são:. Use uma fatia para
 exibir os três últimos itens da lista.
 '''
-cubo = [valor**3 for valor in range(1,11)]
-print('Os três primeiros itens da lista são:' + str(cubo[0:3]))
-print('Os itens medianos da lista são:' + str(cubo[int(len(cubo)/2-1):int(len(cubo)/2+1)]))
-print('Os três primeiros itens da lista são:' + str(cubo[-3:]))
+cube = [value**3 for value in range(1,11)]
+print('Os três primeiros itens da lista são:' + str(cube[0:3]))
+print('Os itens medianos da lista são:' + str(cube[int(len(cube)/2-1):int(len(cube)/2+1)]))
+print('Os três primeiros itens da lista são:' + str(cube[-3:]))

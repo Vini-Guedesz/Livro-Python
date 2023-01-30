@@ -4,7 +4,7 @@ e max() para garantir que sua lista realmente começa em um e termina em um
 milhão. Além disso, utilize a função sum() para ver a rapidez com que Python é
 capaz de somar um milhão de números.
 '''
-um_milhão = list(range(1,1000001))
-print(min(um_milhão))
-print(max(um_milhão))
-print(sum(um_milhão))
+a_million = list(range(1,1000001))
+print(min(a_million))
+print(max(a_million))
+print(sum(a_million))
