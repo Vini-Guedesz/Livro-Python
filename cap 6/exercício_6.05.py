@@ -6,7 +6,7 @@ pelo Egito.
 • Use um laço para exibir o nome de cada rio incluído no dicionário.
 • Use um laço para exibir o nome de cada país incluído no dicionário.
 """
-rios = {
+rivers = {
     'amazonas' : 'brasil',
     'nilo' : 'egito',
     'mississipi' : 'estados unidos',
@@ -14,7 +14,7 @@ rios = {
     'reno' : 'alemanha',
 }
 
-for rio, país in rios.items():
-    print('o rio ' + rio + ' corre pelo ' + país.title())
-    print(rio)
-    print(país)
+for river, contry in rivers.items():
+    print('o rio ' + river + ' corre pelo(a) ' + contry.title())
+    print(river)
+    print(contry)
