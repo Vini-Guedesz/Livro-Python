@@ -20,6 +20,6 @@ while True:
     number_tracks = input('número de músicas: ')
     dic_album = make_album(singers, title, number_tracks)
     print(dic_album)
-    exit = input('deseja sair do programa? sim/não')
+    exit = input('deseja sair do programa? sim/não: ')
     if exit == 'sim':
         break
